@@ -57,6 +57,17 @@ main {
     margin-left: 190px;
     background:#ffffff;
 }
+table {
+    border: 1.5px solid #006600;
+    border-collapse:collapse;
+}
+td, th {
+    padding: 0.5em;
+    border: 1px solid #006600;
+}
+tr:nth-of-type(odd) {
+    background-color: #ecf9ec;
+}
 h1 {
     margin-bottom: 0;
     margin-top: 0;
@@ -69,6 +80,7 @@ h2 {
 }
 h3 {
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #006646;
 }
 main ul {
     list-style-image: url(assets/marker.gif);
