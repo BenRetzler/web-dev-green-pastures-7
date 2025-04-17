@@ -22,6 +22,21 @@ header {
     background-repeat: no-repeat;
     background-position: right;
 }
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width:125px;
+    padding-right: 2em;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 135px;
+}
+
 nav {
     padding: 1.5em;
     font-weight: bold;
@@ -219,6 +234,9 @@ footer {
         background-image: none;
         height: 0px;
     }
+    label {float: none; text-align:left;}
+    input[type=”submit”] {margin-left:0}
+
 }
 
 
