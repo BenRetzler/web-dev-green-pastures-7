@@ -148,7 +148,7 @@ footer {
     position: absolute;
     left: -1000px;
     opacity: 0;
-    transition: 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
 }
 #gallery a:hover span {
     position: absolute;
